@@ -6,7 +6,7 @@ q0 = (1/2)*(f(a) + f(b))
 
 syms j;
 res = romberg(f,q0,1,a,b);
-fprintf("result is %.6f\n", res);
+fprintf("romberg result is %.6f\n", res);
 
 
 t0 = RepeatedTrapezium(f,a,b,1);

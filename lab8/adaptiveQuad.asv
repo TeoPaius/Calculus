@@ -1,4 +1,0 @@
-function ret = adaptiveQuad(f,a,b,err)
-    i1 =
-    
-end
